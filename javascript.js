@@ -1,20 +1,33 @@
-//polindrom olub olmadigini yoxamaq 
+//task1
 function polindrom(cumle) {
     cumle = cumle.toLowerCase().replace(/[\W_]/g, "");
-    let soz=cumle.split('').reverse().join('');
-    if(soz==cumle){
+    let soz = cumle.split('').reverse().join('');
+    if (soz == cumle) {
         console.log("polindromdur");
-    }else{
+    } else {
         console.log("sehv!");
     }
 }
 polindrom("Madam")
-//sivollarin sayi 10-20 arasidrisa tru taski
-function setr(soz) {
-    soz=soz.toLowerCase();
-    let say=soz.split("").reverse().join("")
-    console.log(soz);
-    
-}
-setr("lerik ryedd")
 
+
+
+//task2
+function setr(soz) {
+    soz = soz.toLowerCase().replace(/[\W_]/g, "");
+    let say = soz.length;
+    if (say > 10 && say < 20) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+
+}
+setr("lerik ryedd     d ")
+
+
+//task3
+function edediorta(eded) {
+    
+
+}
