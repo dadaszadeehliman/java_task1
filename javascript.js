@@ -28,6 +28,12 @@ setr("lerik ryedd     d ")
 
 //task3
 function edediorta(eded) {
-    
-
+    let cem = 0
+    for (let i = 0; i < eded.length; i++) {
+        cem += eded[i];
+    }
+    return cem / eded.length;
 }
+ededler = [1, 5, 6]
+let orta = edediorta(ededler);
+console.log(orta);
