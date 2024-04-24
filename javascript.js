@@ -26,6 +26,8 @@ function setr(soz) {
 setr("lerik ryedd     d ")
 
 
+
+
 //task3
 function edediorta(eded) {
     let cem = 0
